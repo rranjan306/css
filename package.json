@@ -1,0 +1,20 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "Basics of Transition and Transform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rranjan306/css.git"
+  },
+  "keywords": [],
+  "author": "Deepak Ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rranjan306/css/issues"
+  },
+  "homepage": "https://github.com/rranjan306/css#readme"
+}

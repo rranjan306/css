@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #200122;
+}
+
+h1 {
+  color: white;
+}
+
+span::before {
+  content: "transition";
+  text-transform: uppercase;
+  color: red;
+  animation: word-switch 5s linear infinite;
+}
+
+@keyframes word-switch {
+  0% {
+    content: "trasition";
+  }
+
+  50% {
+    content: "trasnform";
+    color: blue;
+  }
+
+  100% {
+    content: "animation";
+    color: green;
+  }
+}

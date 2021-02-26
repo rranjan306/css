@@ -1,0 +1,29 @@
+div.background {
+  height: 100vh;
+  background-position: bottom left;
+  background-image: url("./driving/bg.jpg");
+  animation: driving 30s linear infinite;
+}
+
+.car {
+  position: absolute;
+  left: 100px;
+  bottom: -50px;
+  width: 200px;
+}
+
+.bike {
+  position: absolute;
+  left: 600px;
+  bottom: 50px;
+  width: 150px;
+}
+
+@keyframes driving {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
